@@ -9,4 +9,4 @@ for i in range(20):
     else:
         result = (a % b)*10 // b
         print(result, end='')
-        a = (result * 10) % b
+        a = ((a % b) * 10) % b
