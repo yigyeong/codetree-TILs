@@ -5,7 +5,7 @@ for i in range(10):
     n = int(input())
 
     if 0 <= n <= 200:
-        sum_val += 1
+        sum_val += n
         cnt += 1
     
 avg = sum_val / cnt
