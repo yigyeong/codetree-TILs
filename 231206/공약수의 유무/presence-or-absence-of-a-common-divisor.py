@@ -4,6 +4,7 @@ satisfied = False
 for i in range(a, b+1):
     if 1920 % i and 2880 % i:
         satisfied = True
+        break
 
 if satisfied == True:
     print(1)
