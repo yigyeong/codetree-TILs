@@ -7,6 +7,6 @@ for i in range(a, b+1):
         break
 
 if satisfied == True:
-    print('Yes')
+    print('YES')
 else:
     print('NO')
