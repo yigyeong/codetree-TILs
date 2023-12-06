@@ -9,4 +9,4 @@ for i in range(a, b+1):
 if satisfied == True:
     print('Yes')
 else:
-    print('No')
+    print('NO')
