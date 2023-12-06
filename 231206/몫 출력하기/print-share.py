@@ -1,4 +1,4 @@
-cnt == 0
+cnt = 0
 while True:
     n == int(input())
     if n % 2== 0:
