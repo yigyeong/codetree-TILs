@@ -6,5 +6,8 @@ for i in range(n):
         print(' ', end=' ')
     for j in range(n-i):
         al += 1
+        if al == 64+27:
+            al = 65
         print(chr(al), end=' ')
+
     print()
