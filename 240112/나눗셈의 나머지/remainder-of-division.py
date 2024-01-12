@@ -5,5 +5,5 @@ while a > 1:
     cnt[a%b] += 1
     a = a // b
 
-cnt2 = [elem ** 2 for elem in cnt]
-print(sum(cnt2))
+cnt = [elem ** 2 for elem in cnt]
+print(sum(cnt))
