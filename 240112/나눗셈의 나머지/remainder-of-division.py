@@ -1,7 +1,7 @@
 a, b = map(int, input().split())
 
 cnt = [0] * 9
-while:
+while true:
     cnt[a%b] += 1
     a = a // b
     if a < 1:
