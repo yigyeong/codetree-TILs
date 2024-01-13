@@ -8,6 +8,7 @@ max_2 = min(arr[0], arr[1])
 
 for i in range(2, n):
     if arr[i] > max_1:
+        max_2 = max_1
         max_1 = arr[i]
     elif arr[i] == max_1:
         if arr[i] > max_2:
