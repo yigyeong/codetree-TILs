@@ -18,9 +18,8 @@ for i in range(n1):
             success = False
             break
         
-if success:
-    print("Yes")
-    sys. exit()
+    if success:
+        print("Yes")
+        sys. exit()
     
-else:
-    print('No')
+print('No')
