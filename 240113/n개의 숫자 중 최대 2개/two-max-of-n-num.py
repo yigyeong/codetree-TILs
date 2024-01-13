@@ -12,7 +12,7 @@ for i in range(2, n):
     elif arr[i] == max_1:
         if arr[i] > max_2:
             max_2 = arr[i]
-    elif arr[i] >= max_2:
+    elif arr[i] > max_2:
         max_2 = arr[i]
 
 print(max_1, max_2)
