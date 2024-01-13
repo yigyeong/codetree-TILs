@@ -1,6 +1,6 @@
 import sys
 
-n1, n2 = map(int, input().split())
+n1, n2 = tuple(map(int, input().split()))
 n1_seq = list(map(int, sys.stdin.readline().split()))
 n2_seq = list(map(int, sys.stdin.readline().split()))
 
