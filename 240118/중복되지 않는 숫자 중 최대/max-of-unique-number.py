@@ -8,6 +8,7 @@ for elem in arr:
         cnt = 0
         arr.remove(m)
         arr.remove(m)
+        m = max(arr)
     if m == elem:
         cnt+= 1
     
