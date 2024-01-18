@@ -7,6 +7,7 @@ for elem in arr:
     if cnt > 1:
         cnt = 0
         arr.remove(m)
+        arr.remove(m)
     if m == elem:
         cnt+= 1
     
